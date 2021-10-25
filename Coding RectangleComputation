@@ -1,0 +1,18 @@
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       double lenght, width, area, perimeter;
+        
+       lenght = 10.5;
+       width = 5;
+       
+       perimeter =(2 * ( lenght + width));
+       area = lenght * width;
+       
+       System.out.printf("The perimeter is %.2f " , perimeter);
+       System.out.printf(" \nThe area of rectangle is %.2f", area);
+       
+	}
+
+}
